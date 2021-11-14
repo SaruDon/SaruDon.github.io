@@ -374,8 +374,8 @@ section {
 .services {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
+
+
 }
 
 .titleSection::after {
@@ -390,7 +390,14 @@ section {
     left: calc(50% - 150px);
 }
 
+.wev {
+
+    padding: 90px;
+
+}
+
 .service {
+
     width: calc(30% - 10px);
     text-align: center;
     height: 550px;
@@ -403,6 +410,7 @@ section {
 }
 
 .serviceMid {
+
     width: calc(40% - 50px);
     height: 600px;
     text-align: center;
@@ -415,8 +423,9 @@ section {
 
 
 .service img {
+
     margin-top: 7px;
-    width: 300px;
+    width: 280px;
     margin: 10px;
     padding: 10px;
     border-color: #ffa588;
@@ -427,10 +436,15 @@ section {
 
 }
 
+.webdev {
+    width: 100px;
+
+}
+
 .serviceMid img {
 
     padding: 10px;
-    width: 380px;
+    width: 365px;
     border-color: #ffa588;
     border-style: solid;
     border-width: 2px;
@@ -578,7 +592,7 @@ h4.socialm {
 
 .person {
     position: absolute;
-    top: 4010px;
+    top: 4100px;
     right: 150px;
     padding-right: 200px;
     text-align-last: right;
@@ -589,7 +603,7 @@ h4.socialm {
 
 .Rectangle {
     position: absolute;
-    top: 4020px;
+    top: 4120px;
     right: 450px;
     width: 100px;
     height: 2px;
@@ -819,19 +833,7 @@ footer {
         text-align: justify;
     }
 
-    .services {
-        width: 100%;
-    }
 
-    .service {
-        width: calc(85% - 20px);
-        align-items: center;
-    }
-
-    .serviceMid {
-        width: calc(80% - 10px);
-        align-items: center;
-    }
 
     .contact-form .item {
         width: 100%;
@@ -896,26 +898,19 @@ footer {
         right: 90px;
     }
 
-    .service {
-        width: 350px;
-    }
 
-    .serviceMid {
-        width: 500px;
-    }
-
-    .borderbox {
-        width: 300px;
-    }
-
-    .borderbox {
+    .hackerImage {
+        position: absolute;
+        top: 250px;
+        left: 500px;
         width: 200px;
-        padding: 10px;
-        border: 3px solid #ffa588;
-        margin: 50px;
-        border-radius: 9px;
+        height: 200px;
+        border-radius: 120px;
+        box-shadow: 0 0 20px 3px #ffa588;
 
     }
+
+
 
 
 
